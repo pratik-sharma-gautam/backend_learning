@@ -18,6 +18,6 @@ app.get('/profile',(req,res)=>{
     res.render('index.ejs');
 });
 
-app.listen(port,()=>{
+app.listen("https://backend-learning-sem1.onrender.com/",()=>{
     console.log(`Server is running on http://localhost:${port}`);
 });
